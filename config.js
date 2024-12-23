@@ -49,7 +49,7 @@ module.exports = {
         : process.env.HEROKU_API_KEY,
     APP_NAME:
       process.env.HEROKU_APP_NAME === undefined
-        ? ""
+        ? "pato bot"
         : process.env.HEROKU_APP_NAME,
   },
   DATABASE_URL: DATABASE_URL,
